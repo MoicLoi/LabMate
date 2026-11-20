@@ -1,0 +1,17 @@
+{
+  "name": "labmate",
+  "version": "1.1.0",
+  "private": true,
+  "description": "实验智记 LabMate — 轻量教学实验记录 Android App（拍照入库 / 三分支答疑 / LaTeX / 报告）",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node tools/check.mjs",
+    "build": "node tools/build.mjs",
+    "package": "node tools/package-release.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
